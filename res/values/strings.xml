@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataCollector</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Enter IP</string>
+    <string name="title_activity_log_collection">LogCollectionActivity</string>
+    <string name="title_activity_accelerometer">AccelerometerActivity</string>
+    <string name="title_activity_enter_tag">EnterTagActivity</string>
+    <string name="title_activity_tag">TagActivity</string>
+    <string name="title_activity_tagged_collection">TaggedCollectionActivity</string>
+
+</resources>

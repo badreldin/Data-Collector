@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AccelerometerActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Collecting" />
+
+    <Button
+        android:id="@+id/startTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stopCollecting"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginBottom="61dp"
+        android:onClick="startTag"
+        android:text="Tag" />
+
+    <Button
+        android:id="@+id/stopCollecting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startTag"
+        android:layout_centerVertical="true"
+        android:onClick="stopCollecting"
+        android:text="Stop Collecting" />
+
+</RelativeLayout>
